@@ -1,0 +1,1 @@
+The Spark application is executed in Spark cluster on Azure HDInsight.
