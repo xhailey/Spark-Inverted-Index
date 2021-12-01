@@ -1,7 +1,7 @@
 from pyspark import SparkContext
 import re
 
-sc = SparkContext("local", "inverted index")
+sc = SparkContext("local", "inverted-index")
 
 rdd = sc.wholeTextFiles("./Data/*/*")
 
