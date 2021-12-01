@@ -1,5 +1,4 @@
 from pyspark import SparkContext
-from pyspark.sql import SparkSession
 import re
 
 sc = SparkContext("local", "inverted index")
